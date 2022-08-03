@@ -1,0 +1,51 @@
+* {
+    font-family: monospace;
+    color: white !important;
+}
+body {
+    background: url(img/bgpicture.jpg) no-repeat center center fixed;
+}
+
+.container {
+    min-height: 31rem;
+    width: 25rem;
+    background-color: rgba(41, 39, 39, 0.5);
+    border-radius: 10px;
+    
+}
+.result-container {
+    min-height: 0%;
+    border-radius: 15px;
+    /* display: none; */
+}
+
+.title-head {
+    min-height: 5rem;
+}
+.hero-story {
+    min-height: 8rem;
+}
+.hero-result {
+    min-height: 10rem;
+}
+
+.result-name {
+    min-height: 2rem;
+    width: 100%;
+}
+.result-story {
+    min-height: 5rem;
+    width: 100%;
+}
+.result-role {
+    min-height: 2rem;
+    width: 100%;
+}
+.image-hero{
+    height: 7rem;
+}
+.image-hero img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
